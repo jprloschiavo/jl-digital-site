@@ -13,73 +13,41 @@
 }
 
 html {
-    font-size: 16px;
-    /* font-family: 'Trebuchet MS', sans-serif; */
+    font-size: 20px;
     width: 100vw;
 }
 
 body {
     width: 100%;
+    color: var(--primary);
+    background-color: var(--lightWhite);
 }
 
-/* #site_header {
-    padding: 0 6rem;
-    position: fixed;
-    top: 0;
-    width: 100vw;
+h1 {
+    font-size: 2.986rem;
 }
 
-.site_header-inner {
-    height: 9rem;
-    padding: 3rem 0 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+h2 {
+    font-size: 2.488rem;
 }
 
-.site_header-logo {
-    height: 4.5rem;
+p {
+    font-size: 1rem;
 }
 
-.button {
-    width: fit-content; 
-    padding: 0rem 3rem;
-    border-radius: 1.5rem;
-    text-decoration: none;
-    line-height: 3rem;
+em {
+    color: var(--secondary);
 }
 
-.primary-button {
-    background-color: var(--secondary);
-    color: var(--lightWhite);
+.eyebrow {
     text-transform: uppercase;
+    font-size: 0.833rem;
 }
 
-.primary-button:hover {
-    background-color: var(--secondaryDark);
+.hero__headline {
+
 }
 
-#main {
-    margin: 9rem 0 0;
-} */
-
-#hero {
-    height: 100vh;
-    display: flex;
-    padding: 0 4rem;
-}
-
-.hero__content {
-    max-width: 320px;
-    height: 100%;
-    margin-right: 1rem;
-    display: flex;
-    flex-shrink: 0;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.hero__visual {
-    min-width: 0;
-    flex-shrink: 1;
+.hero__subheading {
+    font-weight: 400;
 }
